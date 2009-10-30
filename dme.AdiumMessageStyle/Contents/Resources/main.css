@@ -1,0 +1,41 @@
+.outgoing, .incoming {
+    display: table;
+}
+
+.outgoing {
+    color: #222222;
+}
+
+.incoming {
+    color: #666666;
+}
+
+.messagebody {
+    display: table-row;
+}
+
+.sender, .message, .timestamp {
+    display: table-cell;
+}
+
+.sender {
+    width: 10%;
+    font-weight: bold;
+    text-align: right;
+}
+
+.message {
+    width: 85%;
+}
+
+.timestamp {
+    width: 5%;
+    font-size: 70%;
+    text-align: right;
+}
+
+.status_message {
+    text-align: center;
+    font-size: 70%;
+    color: #888888;
+}
