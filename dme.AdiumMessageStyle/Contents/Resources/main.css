@@ -42,3 +42,11 @@
     font-size: 80%;
     color: #888888;
 }
+
+.incoming a {
+    color: #666666;
+}
+
+.outgoing a {
+    color: #222222;
+}
